@@ -309,7 +309,7 @@ schema_definition_cache_expiry_in_sec: 14400
 search_indexer_topic_name: "{{ env_name }}.learning.graph.events"
 search_indexer_failed_topic_name: "{{ env_name }}.learning.events.failed"
 search_indexer_group_name: "{{ env_name }}-search-indexer-group"
-search_indexer_es_index_name: "{{ compositesearch_index_name }}"
+search_indexer_es_index_name: "compositesearch"
 dialcode_es_index_name: "dialcode"
 search_indexer_ignored_fields: ["responseDeclaration", "body", "options", "lastStatusChangedOn", "SYS_INTERNAL_LAST_UPDATED_ON", "sYS_INTERNAL_LAST_UPDATED_ON","branchingLogic"]
 search_indexer_restrict_object_types: ["EventSet", "EventSetImage", "Event", "EventImage", "Questionnaire", "Misconception", "FrameworkType", "Concept", "Misconception", "Language", "Reference", "Dimension", "Method", "Library", "Domain", "Api"]
